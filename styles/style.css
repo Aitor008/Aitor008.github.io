@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+    width: 80%;
+    margin: auto;
+}
+header{
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    -webkit-box-shadow: 0px 7px 15px -3px rgba(0,0,0,0.46); 
+    box-shadow: 0px 7px 15px -3px rgba(0,0,0,0.46);
+}
+header>#logo>img{
+    width: 25%;
+    padding: 1.4rem;
+    flex-grow: 3;
+}
+nav{
+    display: inline;
+    flex-grow: 3;
+}
+nav>a{
+    padding-right: 10rem;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+h2,h3,h4{
+    font-family: 'Permanent Marker', cursive;
+}
+form{
+    flex-grow: 3;
+    padding-right: 1.7rem;
+    margin: auto;
+    width: 20%;
+}
+form>label{
+    color: white;
+    display: inline-block;
+    width: 99px;
+}
+form button[type="submit"]{
+    width: 310px;
+    padding: 5px 20px;
+    font-family: 'Permanent Marker', cursive;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+form button[type="submit"]:hover{
+    cursor: pointer;
+}
+form>input{
+    padding: 3px 10px;
+    width: 180px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: gray;
+    margin: 4px 0;
+    display: inline-block;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+#campeones>div>img{
+    max-width: 100%;
+    min-width: 100%;
+    padding-left: 3rem;
+}
+#campeones{
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+#campeones>div{
+    margin-top: 2rem;
+    display: inline-block;
+    width: 15%;
+}
+#campeones>div>p{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+    margin-left: 4rem;
+    display: inline-block;
+}
+#tabla{
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-family: 'Arimo', sans-serif;
+    overflow: auto;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-family: 'Rowdies', cursive;
+}
+td{
+    width: 20%;
+    padding: 0 10px 0;
+}
+table{
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+td:last-child{
+    padding: 0;
+}
+tr:nth-child(2n){
+    background-color: #ebfeff;
+}
+tr:nth-child(2n+1){
+    background-color: #f5edff;
+}
+td:first-child{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Rowdies', cursive;
+}
+.p{
+    font-family: 'Arimo', sans-serif;
+}
+.caption{
+    float: right;
+    border: 1px solid black;
+    margin: 1rem 0 0 1rem;
+}
+.caption>figure{
+    margin: 5px;
+}
+.caption>figure>figcaption{
+    margin: auto;
+    width: 50%;
+}
+.caption1{
+    float: right;
+    border: 1px solid black;
+    margin: 1rem 0 0 1rem;
+    width: 50%;
+}
+.caption1>figure{
+    margin: 5px;
+}
+.caption1>figure>img{
+    width: 100%;
+}
+.caption1>figure>figcaption{
+    width: 20%;
+    margin: auto;
+}
+.historia>p{
+    font-family: 'Arimo', sans-serif;
+}
+.vacio>p{
+    font-family: 'Arimo', sans-serif;
+}
+summary{
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 1rem;
+}
+.caption2{
+    float: right;
+    border: 1px solid black;
+    margin: 1rem 0 0 1rem;
+    width: 50%;
+}
+.caption2>figure{
+    margin: 5px;
+}
+.caption2>figure>img{
+    width: 100%;
+}
+.caption2>figure>figcaption{
+    width: 20%;
+    margin: auto;
+}
