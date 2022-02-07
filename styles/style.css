@@ -103,6 +103,9 @@ td{
     width: 20%;
     padding: 0 10px 0;
 }
+.c1>img{
+    width: 100%;
+}
 table{
     display: table;
     box-sizing: border-box;
