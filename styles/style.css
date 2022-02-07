@@ -58,22 +58,18 @@ form>input{
     width: 180px;
     border: 1px solid white;
     border-radius: 3px;
-    background-color: gray;
     margin: 4px 0;
     display: inline-block;
-    color: white;
+    color: black;
     font-family: 'Roboto Mono', monospace;
 }
 #campeones>div>img{
-    max-width: 100%;
+    width: 100%;
     min-width: 100%;
     padding-left: 3rem;
 }
 #campeones{
     background-color: black;
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
 }
 #campeones>div{
     margin-top: 2rem;
