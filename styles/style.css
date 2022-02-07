@@ -169,6 +169,7 @@ td:first-child{
 summary{
     font-family: 'Permanent Marker', cursive;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 .caption2{
     float: right;
