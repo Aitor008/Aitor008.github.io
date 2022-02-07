@@ -109,6 +109,8 @@ table{
     box-sizing: border-box;
     text-indent: initial;
     border-spacing: 2px;
+}td>img{
+    display: block;
 }
 td:last-child{
     padding: 0;
